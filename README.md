@@ -16,6 +16,11 @@ npm install --save react-swal
 <link rel="stylesheet" href="../node_modules/sweetalert/dist/sweetalert.css">
 ```
 
+##### In your `index.js`:
+```js
+import '../node_modules/sweetalert/dist/sweetalert.css';
+```
+
 ##### In your React component:
 
 ```js
