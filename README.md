@@ -10,6 +10,14 @@ npm install --save react-swal
 
 ## Usage
 
+##### In your `index.html`:
+
+```html
+<link rel="stylesheet" href="../node_modules/sweetalert/dist/sweetalert.css">
+```
+
+##### In your React component:
+
 ```js
 const SweetAlert = require('react-swal');
 
